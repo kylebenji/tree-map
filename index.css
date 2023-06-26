@@ -1,0 +1,29 @@
+.tooltip {
+  background-color: #f8f6ef;
+  position: absolute;
+  opacity: 0;
+  color: #191919;
+  font-size: 14px;
+  pointer-events: none;
+  border: 1px solid #8f8779;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.tooltip p {
+  padding: 0;
+  margin: 0;
+}
+
+.tile-text {
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
